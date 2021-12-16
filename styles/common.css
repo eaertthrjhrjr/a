@@ -3,12 +3,12 @@
 
 /* Body */
 :root {
-	--primary-color: #292a2e;
-	--secondary-color: #202024;
+	--primary-color: #000000;
+	--secondary-color: #000000;
 	--grey-text: #c9ccd6;
 	--error-color: #fc4747;
-	--purple: #663399;
-	--light-purple: #8f45d9;
+	--color: #00ff00;
+	--light-color: #90EE90;
 }
 
 * {
@@ -66,7 +66,7 @@ body {
 	height: 70px;
 	font-weight: 400;
 	background-color: var(--secondary-color);
-	border-bottom: var(--purple) 5px solid;
+	border-bottom: var(--color) 5px solid;
 }
 
 .navbar ul {
@@ -86,7 +86,7 @@ body {
 
 .navbar .currentPage,
 .navbar .currentPage:hover {
-	color: var(--light-purple);
+	color: var(--light-color);
 }
 
 .navbar .flex {
@@ -112,14 +112,14 @@ body {
 /* Footer */
 .footer {
 	width: 100%;
-	border-top: var(--purple) 5px solid;
+	border-top: var(--color) 5px solid;
 	padding: 30px;
 	height: 200px;
 	background-color: var(--secondary-color);
 }
 
 .footer h4 {
-	color: var(--light-purple);
+	color: var(--light-color);
 	font-weight: 400;
 	font-size: 1.5rem;
 }
